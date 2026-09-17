@@ -12,3 +12,47 @@ GER = {
 			}
 		}
 }
+
+SOV = {
+	infantry_equipment = {
+		pool = {
+			sub_units = { hq_support_company }
+			weight = 2950
+			models = {
+				SOV_army_headquarters_mg_entity
+			}
+		}
+}
+
+JAP = {
+	infantry_equipment = {
+		pool = {
+			sub_units = { hq_support_company }
+			weight = 2950
+			models = {
+				JAP_army_headquarters_mg_entity
+			}
+		}
+}
+
+ENG = {
+	infantry_equipment = {
+		pool = {
+			sub_units = { hq_support_company }
+			weight = 2950
+			models = {
+				ENG_army_headquarters_mg_entity
+			}
+		}
+}
+
+USA = {
+	infantry_equipment = {
+		pool = {
+			sub_units = { hq_support_company }
+			weight = 2950
+			models = {
+				USA_army_headquarters_mg_entity
+			}
+		}
+}
