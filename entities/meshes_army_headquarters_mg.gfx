@@ -1,0 +1,43 @@
+objectTypes = {
+
+# To add new models, duplicate the pdxmesh={...} clause below & replace the name & file variables. 
+# The name can be whatever you want I think, & the file must be the name of the .mesh file (the same one as for the pistol model). 
+# If there is a meshsettings={...} clause, you need to include that as well.
+
+	pdxmesh = {
+		name = "GER_army_headquarters_mg_mesh"
+		file = "gfx/models/units/army_headquarters/GER_army_headquarters.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		#animation = { id = "idle"			type = "army_hq_idle_pistol_animation" }
+		animation = { id = "notes"			type = "long_notes_pistol_animation" }
+		#animation = { id = "scout"			type = "long_scouting_pistol_animation" }
+		animation = { id = "stance"			type = "long_stance_pistol_animation" }
+		#animation = { id = "brush"			type = "long_brush_mg_animation" }
+		#animation = { id = "attack01"			type = "army_hq_attack_stand01_pistol_animation" }
+		#animation = { id = "attack02"			type = "army_hq_attack_stand02_pistol_animation" }
+		#animation = { id = "support_attack"	type = "army_hq_attack_crouch_pistol_animation" }
+		#animation = { id = "charge_pistol"		type = "army_hq_charge_pistol_animation" }
+		#animation = { id = "charge_pistol_shoot"	type = "army_hq_charge_pistol_shoot_animation" }
+		#animation = { id = "move"			type = "army_hq_moving_pistol_animation" }
+		#animation = { id = "retreat"		type = "army_hq_retreat_pistol_animation" }
+		#animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "training"		type = "army_hq_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "army_hq_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "army_hq_pushup_animation" }
+	}
+
+}
