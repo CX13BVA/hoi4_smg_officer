@@ -1,4 +1,6 @@
-# To add a new model, duplicate the whole section below. Replace GER with the tag of the country it will be for, and replace the model/entity name with the entity you defined in the .asset file. N.B. the weight of the normal pistol models is 3000 (where a country has a specific model, generic models are lower), so set the weight to a higher value to have it be the default model.
+# To add a new model, duplicate the whole section below. 
+# Replace GER with the tag of the country it will be for, and replace the model/entity name with the entity you defined in the .asset file. 
+# N.B. the weight of the normal pistol models is 3000 (where a country has a specific model, generic models are lower), so set the weight to a higher value to have it be the default model.
 
 GER = {
 	infantry_equipment = {
